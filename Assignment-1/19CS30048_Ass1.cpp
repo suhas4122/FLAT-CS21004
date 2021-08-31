@@ -4,6 +4,7 @@ Suhas Jain
 SOftware Engineering Theory Assignment-3
 */
 
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef unsigned int uint;
@@ -659,6 +660,7 @@ DFA* collapse(DFA* dfa, uint**M)
 
 int main()
 {
+
     string s;
     cout <<"Enter file name : ";
     cin >> s;
@@ -684,4 +686,5 @@ int main()
     DFA* f = collapse(d, e);
     cout << "+++ Reduced DFA after collapsing equivalent states";
     printDFA(f);
+    
 }
